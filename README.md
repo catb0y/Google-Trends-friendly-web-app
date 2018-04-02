@@ -9,6 +9,6 @@ Built in Flask with Bootstrap, pytrends library.
 5. This command prints copy: s3://adveritychallenge/aws_file to s3://adveritychallenge2/aws_file
 6. See screenshots in folder /screenshots
 
-![img1](https://raw.githubusercontent.com/catb0y/adverity_challenge/master/screenshots/aws1.png?token=AWY-elUbeok3R_wyuKyFLiFBBYD2kiunks5ay9cGwA%3D%3D)
-![img2]()
-![img3]()
+![aws s3 buckets](https://raw.githubusercontent.com/catb0y/adverity_challenge/master/screenshots/aws1.png?token=AWY-elUbeok3R_wyuKyFLiFBBYD2kiunks5ay9cGwA%3D%3D)
+![adveritychallenge folder](https://raw.githubusercontent.com/catb0y/adverity_challenge/master/screenshots/aws3.png?token=AWY-ejhpAUjeO-_nF1VzpuMH3j3JsRrsks5ay_J1wA%3D%3D)
+![adveritychallenge2 folder](https://raw.githubusercontent.com/catb0y/adverity_challenge/master/screenshots/aws2.png?token=AWY-es9torxPrHON_oYmkCkaL9EvT98Cks5ay_JdwA%3D%3D)
