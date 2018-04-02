@@ -1,6 +1,8 @@
 # Google Trends web app
 Built in Flask with Bootstrap, pytrends library.
 
+![wa1](https://raw.githubusercontent.com/catb0y/adverity_challenge/master/screenshots/aws1.png?token=AWY-elUbeok3R_wyuKyFLiFBBYD2kiunks5ay9cGwA%3D%3D)
+
 # Move file from one AWS S3 bucket to another - in steps
 1. Created AWS account and first S3 bucket(s), adveritychallenge and adveritychallenge2
 2. Uploaded file (aws_file) to adveritychallenge (note: file is approximately 4GB, as my laptop could not handle bigger files -- it is from 2007 after all)
