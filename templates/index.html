@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+
+<!--  Content -->
+<main role="main" class="container">
+
+<!-- Form -->
+  <div class="starter-template">
+    <h1>Popularity over time / Google Trends</h1>
+    <p class="lead">Enter your search term</p>
+    <div id="txt_on_submit"></div>
+
+    <form method="POST" id="trend_form">
+      <div class="form-group">
+        <input type="text" class="form-control" name="example" id="trendy"/>
+      </div>
+      <button type="button" class="btn btn-primary">Submit</button>
+    </form>
+
+<!-- Chart -->
+    <canvas id="myChart"></canvas>
+
+
+
+
+</main>
+
+{% endblock %}
