@@ -10,3 +10,5 @@ Built in Flask with Bootstrap, pytrends library.
 6. See screenshots in folder /screenshots
 
 ![img1](https://raw.githubusercontent.com/catb0y/adverity_challenge/master/screenshots/aws1.png?token=AWY-elUbeok3R_wyuKyFLiFBBYD2kiunks5ay9cGwA%3D%3D)
+![img2]()
+![img3]()
