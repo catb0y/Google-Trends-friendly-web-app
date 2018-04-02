@@ -22,10 +22,7 @@
 
 <!-- Navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">GTSKM</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <a class="navbar-brand" href="#">Adverity challenge</a>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
@@ -39,7 +36,7 @@
 
 
 
-<!-- jquery
+<!-- jQuery / JS
 ================================================== -->
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -50,7 +47,7 @@
 // add event listener for search field
 $( document ).ready(function() {
   $( "#trend_form" ).submit(function(e) {
-    e.preventDefault();
+    e.preventDefault(); // to avoid continuous refresh
     $("#txt_on_submit").html("Fetching trends for your keywork...<br><br>");
 
     // sending request to the server
@@ -62,8 +59,6 @@ $( document ).ready(function() {
           keyword: keyword_to_look_up
         },
         success: function(response) {
-          // preparing chart
-          var ctx = document.getElementById('myChart').getContext('2d');
 
           // making labels
           var obj = JSON.parse(response)
@@ -78,7 +73,10 @@ $( document ).ready(function() {
 
           $("#txt_on_submit").html("");
 
-          // actual chart
+          // preparing chart
+          var ctx = document.getElementById('myChart').getContext('2d');
+
+          // draw chart
           var chart = new Chart(ctx, {
             type: 'line',
 
